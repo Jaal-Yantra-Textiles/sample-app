@@ -20,9 +20,9 @@ switch (process.env.APL) {
             /**
              * Map your env variables here. You don't have these values yet
              */
-            token: envVars.SALEOR_APP_TOKEN,
-            appId: envVars.SALEOR_APP_ID,
-            saleorApiUrl: envVars.SALEOR_API_URL,
+            token: process.env.SALEOR_APP_TOKEN,
+            appId: process.env.SALEOR_APP_ID,
+            saleorApiUrl: process.env.SALEOR_API_URL,
           },
           /**
            * Set it to "true" - check your app logs during app registration. APL will print the values you need
