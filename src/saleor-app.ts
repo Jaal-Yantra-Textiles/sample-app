@@ -27,7 +27,7 @@ switch (process.env.APL) {
           /**
            * Set it to "true" - check your app logs during app registration. APL will print the values you need
            */
-          printAuthDataOnRegister: true,
+          printAuthDataOnRegister: false,
         });
     break;
   default:
