@@ -32,7 +32,7 @@ export default createManifestHandler({
          *
          * This can be removed
          */
-        "MANAGE_CHANNELS","MANAGE_STAFF"
+        "MANAGE_CHANNELS","MANAGE_USERS"
       ],
       id: "saleor.app",
       version: packageJson.version,
