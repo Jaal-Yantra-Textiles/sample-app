@@ -15,7 +15,7 @@ switch (process.env.APL) {
     apl = new UpstashAPL();
     break;
   case "env":
-    const apl = new EnvAPL({
+    apl = new EnvAPL({
           env: {
             /**
              * Map your env variables here. You don't have these values yet
